@@ -53,7 +53,7 @@ int main()
         return -1;
     }
 
-    Shader ourShader("3_Shader_4_shader.vs", "3_Shader_4_shader.fs");
+    Shader ourShader("3_Shader_4.vs", "3_Shader_4.fs");
 
     GLuint VBO[1], VAO[1];
     glGenBuffers(1, VBO);
