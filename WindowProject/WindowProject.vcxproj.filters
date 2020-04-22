@@ -36,7 +36,7 @@
     <ClCompile Include="3_Shader_3_vetricesWithColor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="3_Shader_3_vetricesWithColor_shader_class.cpp">
+    <ClCompile Include="3_Shader_4_vetricesWithColor_shader_class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
