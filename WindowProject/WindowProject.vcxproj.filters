@@ -114,5 +114,8 @@
     <Image Include="Images\container.jpg">
       <Filter>Images</Filter>
     </Image>
+    <Image Include="Images\awesomeface.png">
+      <Filter>Images</Filter>
+    </Image>
   </ItemGroup>
 </Project>
