@@ -16,28 +16,61 @@
     <Filter Include="Shaders">
       <UniqueIdentifier>{01320aec-623f-46fd-bcbd-58d104936c79}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\3 Shader">
+      <UniqueIdentifier>{04957fbb-1cc6-4677-93a6-bb77908c7033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\2 Triangle">
+      <UniqueIdentifier>{96a8c5a6-5202-4f3f-af19-4c825effad8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\1 Hello Window">
+      <UniqueIdentifier>{4a7e1bcf-0f73-4203-9e5c-489ab33a1f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\3 Shader\3 Lesson Shaders">
+      <UniqueIdentifier>{e676d743-730a-48fd-8b30-ec933dec43d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\4 Texture">
+      <UniqueIdentifier>{22291a3a-cb8c-4844-8067-ca93683d30be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\4 Texture\Shaders">
+      <UniqueIdentifier>{55c635c4-f113-4c15-a77e-c7afb895c31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{7603ed98-8046-48f1-9305-c678caf4df14}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Downloads\glad\src\glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="2_Triangle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="1_Init.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="3_Shader_1_vetrexColor.cpp">
+      <Filter>Source Files\3 Shader</Filter>
     </ClCompile>
     <ClCompile Include="3_Shader_2_uniforms.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="3_Shader_1_vetrexColor.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\3 Shader</Filter>
     </ClCompile>
     <ClCompile Include="3_Shader_3_vetricesWithColor.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\3 Shader</Filter>
     </ClCompile>
     <ClCompile Include="3_Shader_4_vetricesWithColor_shader_class.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\3 Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="3_Shader_ex1.cpp">
+      <Filter>Source Files\3 Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="2_Triangle.cpp">
+      <Filter>Source Files\2 Triangle</Filter>
+    </ClCompile>
+    <ClCompile Include="1_Init.cpp">
+      <Filter>Source Files\1 Hello Window</Filter>
+    </ClCompile>
+    <ClCompile Include="3_Shader_ex2.cpp">
+      <Filter>Source Files\3 Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="3_Shader_ex3.cpp">
+      <Filter>Source Files\3 Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="4_Texture.cpp">
+      <Filter>Source Files\4 Texture</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -47,10 +80,39 @@
     <None Include="3_Shader_4.vs">
       <Filter>Shaders</Filter>
     </None>
+    <None Include="3_Shader_ex1.vs">
+      <Filter>Source Files\3 Shader\3 Lesson Shaders</Filter>
+    </None>
+    <None Include="3_Shader_ex1.fs">
+      <Filter>Source Files\3 Shader\3 Lesson Shaders</Filter>
+    </None>
+    <None Include="3_Shader_ex2.vs">
+      <Filter>Source Files\3 Shader\3 Lesson Shaders</Filter>
+    </None>
+    <None Include="3_Shader_ex3.vs">
+      <Filter>Source Files\3 Shader\3 Lesson Shaders</Filter>
+    </None>
+    <None Include="3_Shader_ex3.fs">
+      <Filter>Source Files\3 Shader\3 Lesson Shaders</Filter>
+    </None>
+    <None Include="4_Shader.vs">
+      <Filter>Source Files\4 Texture\Shaders</Filter>
+    </None>
+    <None Include="4_Shader.fs">
+      <Filter>Source Files\4 Texture\Shaders</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader_s.h">
+    <ClInclude Include="shader_util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\container.jpg">
+      <Filter>Images</Filter>
+    </Image>
   </ItemGroup>
 </Project>

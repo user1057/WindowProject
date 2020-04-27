@@ -53,7 +53,7 @@ int main()
         return -1;
     }
 
-    Shader ourShader("3_Shader_4.vs", "3_Shader_4.fs");
+    Shader ourShader("3_Shader_ex2.vs", "3_Shader_ex1.fs");
 
     GLuint VBO[1], VAO[1];
     glGenBuffers(1, VBO);
@@ -86,6 +86,8 @@ int main()
 
         ourShader.use();
         glBindVertexArray(VAO[0]);
+        float offset = 0.5f;
+        ourShader.setFloat("xOffset", offset);
 
         glDrawArrays(GL_TRIANGLES, 0, 6);
         glBindVertexArray(0);

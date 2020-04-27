@@ -159,14 +159,37 @@
     <ClCompile Include="3_Shader_3_vetricesWithColor.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="3_Shader_4_vetricesWithColor_shader_class.cpp" />
+    <ClCompile Include="3_Shader_4_vetricesWithColor_shader_class.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3_Shader_ex1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3_Shader_ex2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="3_Shader_ex3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="4_Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="shader_s.h" />
+    <ClInclude Include="shader_util.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="3_Shader_4.fs" />
     <None Include="3_Shader_4.vs" />
+    <None Include="3_Shader_ex1.fs" />
+    <None Include="3_Shader_ex1.vs" />
+    <None Include="3_Shader_ex2.vs" />
+    <None Include="3_Shader_ex3.fs" />
+    <None Include="3_Shader_ex3.vs" />
+    <None Include="4_Shader.fs" />
+    <None Include="4_Shader.vs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
